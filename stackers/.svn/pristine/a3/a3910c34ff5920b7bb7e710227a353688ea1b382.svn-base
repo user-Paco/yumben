@@ -1,0 +1,125 @@
+package com.zjht.entity;
+
+import java.util.Date;
+
+public class SupplierInterfaceConf {
+    private Integer id;
+
+    private String supplierCode;
+
+    private String allShop;
+
+    private String apiMethod;
+
+    private Date beginTime;
+
+    private Date endTime;
+
+    private Date createTime;
+
+    private Date updateTime;
+
+    private String creater;
+
+    private String updater;
+
+    private String status;
+
+    private String shopCode;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getSupplierCode() {
+        return supplierCode;
+    }
+
+    public void setSupplierCode(String supplierCode) {
+        this.supplierCode = supplierCode == null ? null : supplierCode.trim();
+    }
+
+    public String getAllShop() {
+        return allShop;
+    }
+
+    public void setAllShop(String allShop) {
+        this.allShop = allShop == null ? null : allShop.trim();
+    }
+
+    public String getApiMethod() {
+        return apiMethod;
+    }
+
+    public void setApiMethod(String apiMethod) {
+        this.apiMethod = apiMethod == null ? null : apiMethod.trim();
+    }
+
+    public Date getBeginTime() {
+        return beginTime;
+    }
+
+    public void setBeginTime(Date beginTime) {
+        this.beginTime = beginTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(Date endTime) {
+        this.endTime = endTime;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
+
+    public String getCreater() {
+        return creater;
+    }
+
+    public void setCreater(String creater) {
+        this.creater = creater == null ? null : creater.trim();
+    }
+
+    public String getUpdater() {
+        return updater;
+    }
+
+    public void setUpdater(String updater) {
+        this.updater = updater == null ? null : updater.trim();
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status == null ? null : status.trim();
+    }
+
+    public String getShopCode() {
+        return shopCode;
+    }
+
+    public void setShopCode(String shopCode) {
+        this.shopCode = shopCode == null ? null : shopCode.trim();
+    }
+}

@@ -1,0 +1,155 @@
+package com.zjht.entity;
+
+import java.util.Date;
+
+public class SupplierInterface {
+    private Integer id;
+
+    private String supplierCode;
+
+    private String supplierName;
+
+    private String accessToken;
+
+    private String refreshToken;
+
+    private Date refreshTokenExpires;
+
+    private Date expiresIn;
+
+    private Date tokenTimestamp;
+
+    private String username;
+
+    private String password;
+
+    private String status;
+
+    private String creator;
+
+    private String updater;
+
+    private Date createTime;
+
+    private Date updateTime;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getSupplierCode() {
+        return supplierCode;
+    }
+
+    public void setSupplierCode(String supplierCode) {
+        this.supplierCode = supplierCode == null ? null : supplierCode.trim();
+    }
+
+    public String getSupplierName() {
+        return supplierName;
+    }
+
+    public void setSupplierName(String supplierName) {
+        this.supplierName = supplierName == null ? null : supplierName.trim();
+    }
+
+    public String getAccessToken() {
+        return accessToken;
+    }
+
+    public void setAccessToken(String accessToken) {
+        this.accessToken = accessToken == null ? null : accessToken.trim();
+    }
+
+    public String getRefreshToken() {
+        return refreshToken;
+    }
+
+    public void setRefreshToken(String refreshToken) {
+        this.refreshToken = refreshToken == null ? null : refreshToken.trim();
+    }
+
+    public Date getRefreshTokenExpires() {
+        return refreshTokenExpires;
+    }
+
+    public void setRefreshTokenExpires(Date refreshTokenExpires) {
+        this.refreshTokenExpires = refreshTokenExpires;
+    }
+
+    public Date getExpiresIn() {
+        return expiresIn;
+    }
+
+    public void setExpiresIn(Date expiresIn) {
+        this.expiresIn = expiresIn;
+    }
+
+    public Date getTokenTimestamp() {
+        return tokenTimestamp;
+    }
+
+    public void setTokenTimestamp(Date tokenTimestamp) {
+        this.tokenTimestamp = tokenTimestamp;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status == null ? null : status.trim();
+    }
+
+    public String getCreator() {
+        return creator;
+    }
+
+    public void setCreator(String creator) {
+        this.creator = creator == null ? null : creator.trim();
+    }
+
+    public String getUpdater() {
+        return updater;
+    }
+
+    public void setUpdater(String updater) {
+        this.updater = updater == null ? null : updater.trim();
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
+}

@@ -1,0 +1,6 @@
+#验签密钥
+key=lp5h9K28a/IE+SAWbicY
+#应用ID（消息平台分配给业务系统的标识符）
+channel=TPY_EXCHANGE
+#测试ip：172.16.111.7, 生产：10.103.1.90
+url=http://10.103.1.90:9616/message/send_v2.htm

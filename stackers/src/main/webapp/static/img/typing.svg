@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="11939 18090 42 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4e8df5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_806" data-name="Group 806" transform="translate(11909 17824)">
+    <path id="Path_1088" data-name="Path 1088" class="cls-1" d="M21,0A21,21,0,1,1,0,21,21,21,0,0,1,21,0Z" transform="translate(30 266)"/>
+    <path id="ic_mode_edit_24px" class="cls-2" d="M3,21.455v4.856H7.856L22.179,11.988,17.323,7.132ZM25.935,8.233a1.29,1.29,0,0,0,0-1.826L22.9,3.376a1.29,1.29,0,0,0-1.826,0l-2.37,2.37L23.565,10.6l2.37-2.37Z" transform="translate(37 273.002)"/>
+  </g>
+</svg>

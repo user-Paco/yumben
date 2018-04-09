@@ -1,0 +1,8 @@
+项目概要描述：
+自行查看需求文档
+
+框架概要描述：
+本系统后台服务采取springMVC+Spring+MyBatis+Maven进行应用架构，数据库采用Mysql数据库
+
+系统目录描述：
+src目录为存放代码，document为存放系统相应的文档

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7858.985 18471 61.971 60.211">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c0d7fc;
+        stroke: #4286f5;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: #9b9b9b;
+      }
+    </style>
+  </defs>
+  <g id="Group_415" data-name="Group 415" transform="translate(7858.59 18471)">
+    <g id="Group_414" data-name="Group 414" transform="translate(1.41 2.083)">
+      <path id="Path_788" data-name="Path 788" class="cls-1" d="M28.525,5.6c1.55-3.164,4.133-3.164,5.747,0l4.52,9.105a13.862,13.862,0,0,0,9.234,6.716L58.1,22.9c3.487.517,4.326,2.97,1.744,5.424l-7.3,7.1A13.907,13.907,0,0,0,49,46.28l1.744,10.009c.581,3.487-1.485,5.037-4.649,3.358l-8.976-4.714a13.6,13.6,0,0,0-11.43,0l-9.04,4.714c-3.164,1.679-5.231.129-4.649-3.358L13.737,46.28a13.673,13.673,0,0,0-3.552-10.849l-7.3-7.1C.37,25.875,1.145,23.421,4.632,22.9l10.074-1.485A13.838,13.838,0,0,0,24,14.7Z" transform="translate(-1.41 -3.225)"/>
+    </g>
+    <path id="Path_789" data-name="Path 789" class="cls-2" d="M30.4,49.269A12.475,12.475,0,0,1,43.057,37" transform="translate(-10.27 -13.107)"/>
+    <path id="Path_790" data-name="Path 790" class="cls-3" d="M44,67" transform="translate(-15.088 -23.735)"/>
+    <path id="Path_791" data-name="Path 791" class="cls-3" d="M3.4,0" transform="translate(-0.705)"/>
+    <path id="Path_792" data-name="Path 792" class="cls-3" d="M3.4,30Z" transform="translate(-0.705 -10.628)"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7312 18476 58.564 48.184">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #f7931e;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-5 {
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #c0d7fc;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #4286f5;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_416" data-name="Group 416" transform="translate(7218.437 17933)">
+    <path id="Path_769" data-name="Path 769" class="cls-1" d="M46.4,59.2" transform="translate(71.293 528.846)"/>
+    <path id="Path_770" data-name="Path 770" class="cls-1" d="M46.4,59.2" transform="translate(71.293 528.846)"/>
+    <path id="Path_842" data-name="Path 842" class="cls-2" d="M12.061,0A12.061,12.061,0,1,1,0,12.061,12.061,12.061,0,0,1,12.061,0Z" transform="translate(105.632 544)"/>
+    <path id="Path_771" data-name="Path 771" class="cls-3" d="M16.1,53.729a23.338,23.338,0,0,1,46.259,0" transform="translate(78.463 534.927)"/>
+    <path id="Path_772" data-name="Path 772" class="cls-1" d="M62.4,61.2" transform="translate(67.507 528.372)"/>
+    <path id="Path_773" data-name="Path 773" class="cls-1" d="M62.4,61.2" transform="translate(67.507 528.372)"/>
+    <path id="Path_774" data-name="Path 774" class="cls-4" d="M61.4,11.6a9.771,9.771,0,0,1,0,19.542" transform="translate(67.743 540.11)"/>
+    <path id="Path_775" data-name="Path 775" class="cls-4" d="M62.4,37.6A21.364,21.364,0,0,1,83.621,56.226" transform="translate(67.507 533.957)"/>
+    <path id="Path_776" data-name="Path 776" class="cls-5" d="M91.1,60" transform="translate(60.715 528.656)"/>
+  </g>
+</svg>

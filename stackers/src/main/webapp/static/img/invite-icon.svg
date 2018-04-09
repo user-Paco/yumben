@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7486 18637 69 67.625">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c0d7fc;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #4286f5;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_452" data-name="Group 452" transform="translate(7486 18636.5)">
+    <g id="Group_451" data-name="Group 451" transform="translate(8.98 21.053)">
+      <path id="Path_823" data-name="Path 823" class="cls-1" d="M83.82,90.26A3.632,3.632,0,0,1,80.2,93.881H28.421A3.632,3.632,0,0,1,24.8,90.26V59.121A3.632,3.632,0,0,1,28.421,55.5H80.2a3.632,3.632,0,0,1,3.621,3.621Z" transform="translate(-24.8 -55.5)"/>
+    </g>
+    <path id="Path_824" data-name="Path 824" class="cls-2" d="M0,185.5" transform="translate(0 -117.376)"/>
+    <path id="Path_825" data-name="Path 825" class="cls-3" d="M87.226,63.448l-3.115,3.115L66.587,84.087,44.5,62" transform="translate(-28.387 -37.519)"/>
+    <path id="Path_900" data-name="Path 900" class="cls-4" d="M13.759,0,7.74,5.386,0,12.311" transform="translate(15.57 40.968)"/>
+    <path id="Path_899" data-name="Path 899" class="cls-4" d="M13.759,12.311,0,0" transform="translate(47.433 40.968)"/>
+    <path id="Path_826" data-name="Path 826" class="cls-3" d="M76.7,28.533a13.967,13.967,0,0,1,21.472,0" transform="translate(-48.928 -14.034)"/>
+    <path id="Path_827" data-name="Path 827" class="cls-5" d="M106.3,100.5" transform="translate(-67.81 -63.153)"/>
+    <path id="Path_828" data-name="Path 828" class="cls-5" d="M106.3,121.5" transform="translate(-67.81 -76.55)"/>
+    <path id="Path_829" data-name="Path 829" class="cls-3" d="M60.8,9.068a21.744,21.744,0,0,1,32.624-.4" transform="translate(-38.785 0)"/>
+  </g>
+</svg>

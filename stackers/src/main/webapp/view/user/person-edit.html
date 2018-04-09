@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>资料设置</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" href="js/lib/area/css/mui.picker.css" />
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="js/lib/need/layer.css" />
+
+<link rel="stylesheet" href="js/lib/date/mobiscroll.2.13.2.css" />
+<link rel="stylesheet" href="css/def.css">
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/global.js"></script>
+<script src="js/lib/date/mobiscroll.2.13.2.js"></script>
+<script src="js/lib/area/js/mui.min.js"></script>
+<script src="js/lib/area/js/mui.picker.min.js"></script>
+<script src="js/lib/area/js/data.city.js"></script>
+<script src="js/base-all.js"></script>
+</head>
+<body bgcolor="#EEEEEE">
+<header class="header-bar hear-color" >
+	<div class="wrap">
+        <a class="back" href="javascript:history.back(-1)">
+        	<i></i>
+        </a>
+        <h1 class="tit">资料设置</h1>
+    </div>
+</header>
+
+<section class="person-edit-list">
+	<form action=""> 
+		<ul class="person-edit-ul">
+			<li class="edit-li-one">
+				<span>头像</span>
+				<a href="#"><div class="edit-header"><img src="img/login-logo-test.jpg"></div></a>
+			</li>
+			<li>
+				<span>名字</span>
+				<input class="edit-name" type="text" placeholder="请输入名字"  name="editName" id="editName" value="">
+			</li>
+			<li class="edit-have-more">
+				<span>性别</span>
+				<a id="sex-a-man" href="javaScript:void(0)" onclick="funSexMan()" class="sex-a sex-click sex-a-man"></a><i class="sex-man-i">男</i>
+				<a id="sex-a-woman" href="javaScript:void(0)" onclick="funSexWoman()" class="sex-a sex-click sex-a-woman-gray"></a><i class="sex-woman-i">女</i>
+				<input class="sex-input" type="radio" id="man" name="sex" value="男" checked="checked" />
+				<input class="sex-input" type="radio" id="woman" name="sex" value="女"/> 
+			</li>
+			<li class="edit-have-more">
+				<span>生日</span>
+				 <input type="text" class="birth-li" placeholder="请选择生日" id="birthDate" name="birthDate">
+				 <i class="more-choose"></i>
+			</li>
+			<li>
+				<span>手机</span>
+				<input type="number" class="birth-li" name="phone" id="phone" max="11" placeholder="请填入手机号码"/>
+			</li>
+			<li>
+				<span>邮箱</span>
+				<input type="email" class="birth-li" name="email" id="email" placeholder="请填入邮箱"/>
+			</li>
+			<li class="edit-have-more">
+				<span>地区</span>
+				<a id="chooseArea">
+					<span id="cityAreaSpan" class="birth-li">请选择省市</span>
+					<input type="hidden" id="cityArea" name="cityArea" placeholder="请选择省市" value="" />
+				<i class="more-choose"></i></a>
+			</li>
+			<li class="edit-have-more">
+				<a id="selfIntroduction" href="javaScript:void(0)">
+					<span>自我介绍</span>
+					<i class="edit-plus"></i>
+				</a>
+				<!--<textarea id=""></textarea>-->
+			</li>
+			<li class="edit-have-more">
+				<span class="color-span">教育经历</span>
+				<a href="javaScript:void(0)"><i class="edit-plus"></i></a>
+			</li>
+			<li class="edit-list">
+				<div class="edit-list-div">
+					<a href="#">
+						<span>浙江大学-本科</span>
+						<span class="time-right">2011-2015</spn>
+						<spn><i class="i-con"></i></spn>
+					</a>
+				</div>
+				<div class="edit-list-div">
+					<a href="#">
+						<span>浙江大学-本科</span>
+						<span class="time-right">2011-2015</spn>
+						<spn><i class="i-con"></i></spn>
+					</a>
+				</div>
+			</li>
+			<li class="edit-have-more">
+				<span class="color-span">工作经历</span>
+				<a href="javaScript:void(0)"><i class="edit-plus"></i></a>
+			</li>
+			
+			<li class="edit-list">
+				<div class="edit-list-div">
+					<a href="#">
+						<span>2009年于某某公司从事数据库研发工作</span>
+						<spn><i class="i-con"></i></spn>
+					</a>
+				</div>
+			</li>
+			
+			<li class="edit-have-more">
+				<span class="color-span">项目经历</span>
+				<a href="javaScript:void(0)"><i class="edit-plus"></i></a>
+			</li>
+			
+			<li class="edit-list">
+				<div class="edit-list-div">
+					<a href="#">
+						<span>2009年于某某公司从事数据库研发工作</span>
+						<spn><i class="i-con"></i></spn>
+					</a>
+				</div>
+			</li>
+			
+			<li class="edit-have-more">
+				<span class="color-span">培训认证</span>
+				<a href="javaScript:void(0)"><i class="edit-plus"></i></a>
+			</li>
+			
+			<li class="edit-list">
+				<div class="edit-list-div">
+					<a href="#">
+						<span>某某证书</span>
+						<spn><i class="i-con"></i></spn>
+					</a>
+				</div>
+			</li>
+			<li class="edit-have-more">
+				<span class="color-span">个人主页展示设置</span>
+				<a href="javaScript:void(0)"><i class="more-choose"></i></a></a>
+			</li>
+		</ul>
+		
+	</form>
+</section>
+
+</body>
+<script src="js/person-edit.js"></script>
+</html>

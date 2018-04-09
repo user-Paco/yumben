@@ -1,0 +1,6 @@
+package com.zjht.dao;
+
+
+public interface UserDao  {
+	
+}

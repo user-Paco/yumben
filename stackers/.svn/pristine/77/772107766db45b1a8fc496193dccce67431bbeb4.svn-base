@@ -1,0 +1,19 @@
+package com.zjht.dao;
+
+import com.zjht.entity.SupplierInterfaceConf;
+
+public interface SupplierInterfaceConfDao {
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(SupplierInterfaceConf record);
+
+    int insertSelective(SupplierInterfaceConf record);
+
+    SupplierInterfaceConf selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(SupplierInterfaceConf record);
+
+    int updateByPrimaryKeyWithBLOBs(SupplierInterfaceConf record);
+
+    int updateByPrimaryKey(SupplierInterfaceConf record);
+}

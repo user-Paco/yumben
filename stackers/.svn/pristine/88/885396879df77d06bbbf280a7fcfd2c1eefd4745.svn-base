@@ -1,0 +1,19 @@
+package com.zjht.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/Index")
+public class IndexController{
+	
+	
+	@RequestMapping("/test")
+	public String index(){
+		return "index";
+	}
+	
+	
+	
+	
+}

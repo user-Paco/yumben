@@ -1,0 +1,7 @@
+package com.zjht.service.impl;
+
+import com.zjht.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+}

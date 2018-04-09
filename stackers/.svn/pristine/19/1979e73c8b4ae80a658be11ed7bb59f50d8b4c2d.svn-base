@@ -1,0 +1,36 @@
+package com.zjht.controller;
+
+import java.util.HashMap;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.zjht.entity.SupplierInterface;
+import com.zjht.service.SupplerService;
+
+@Controller
+@RequestMapping("Supplier")
+public class SupplierController {
+	
+	@Autowired
+	private SupplerService supplierService;
+	
+	@ResponseBody
+	@RequestMapping("/add")
+	public HashMap<Object, Object> add(){
+		SupplierInterface entity = new SupplierInterface();
+		HashMap<Object, Object> result = new HashMap<>();
+		try {
+			supplierService.add(entity);
+			result.put("status", "SUCCESS");
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		result.put("status", "error");
+		return result;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.zjht.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.zjht.dao.SupplierInterfaceDao;
+import com.zjht.entity.SupplierInterface;
+import com.zjht.service.SupplerService;
+@Service
+public class SupplerServiceImpl implements SupplerService {
+	
+	@Autowired
+	private SupplierInterfaceDao supplierInterfaceDao;
+
+	@Override
+	public void add(SupplierInterface entity) {
+		supplierInterfaceDao.insertSelective(entity);
+	}
+
+}

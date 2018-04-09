@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yumben.dao.UserDao" >
+  <resultMap id="BaseResultMap" type="com.yumben.entity.User" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="nickname" property="nickName" jdbcType="VARCHAR" />
+    <result column="birth" property="birth" jdbcType="DATE" />
+    <result column="sex" property="sex" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="photo" property="photo" jdbcType="TIMESTAMP" />
+    <result column="city_id" property="cityId" jdbcType="INTEGER" />
+    <result column="profile" property="profile" jdbcType="VARCHAR" />
+    <result column="password" property="passWord" jdbcType="VARCHAR" />
+    <result column="level" property="level" jdbcType="INTEGER" />
+    <result column="qq" property="qq" jdbcType="VARCHAR" />
+    <result column="wechat" property="wechat" jdbcType="VARCHAR" />
+    <result column="alipay" property="alipay" jdbcType="VARCHAR" />
+    <result column="paypass" property="paypass" jdbcType="TIMESTAMP" />
+    <result column="money" property="money" jdbcType="FLOAT" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+     <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    id, nickname, birth, sex, phone, photo, 
+    city_id, profile, password, level, qq, wechat, alipay,paypass,money,status,create_time,update_time
+  </sql>
+
+  
+  <insert id="insertSelective" parameterType="com.yumben.entity.User"  useGeneratedKeys="true"  keyProperty="id">
+    insert into t_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="nickName != null" >
+        nickname,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="passWord != null" >
+        password,
+      </if>
+       <if test="status != null" >
+        status,
+      </if>
+		create_time
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+    
+      <if test="nickName != null" >
+        #{nickName,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="passWord != null" >
+        #{passWord,jdbcType=VARCHAR},
+      </if>
+        <if test="status != null" >
+        #{status,jdbcType=VARCHAR},
+      </if>
+      	now()
+    </trim>
+  </insert>
+  
+  <select id="count" resultType="java.lang.Integer">
+  	select count(*) from t_user t where t.phone = #{phone,jdbcType=VARCHAR};
+  </select>
+
+	<select id="query" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from t_user
+		<where>
+			<if test="status != null">
+				status=#{status}
+			</if>
+			<if test="id != null">
+				 and id=#{id}
+			</if>
+			<if test="phone != null">
+				 and phone=#{phone}
+			</if>
+			<if test="passWord != null">
+				 and password=#{passWord}
+			</if>
+		</where>
+	</select>
+ 
+</mapper>

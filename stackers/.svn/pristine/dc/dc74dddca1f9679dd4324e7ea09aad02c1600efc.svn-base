@@ -1,0 +1,10 @@
+package com.zjht.service;
+
+
+import com.zjht.entity.SupplierInterface;
+
+public interface SupplerService {
+
+	void add(SupplierInterface entity);
+	
+}
